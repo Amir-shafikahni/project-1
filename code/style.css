@@ -1,0 +1,195 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+.header{
+    background-image:url(../img/pic2.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 450px;
+    border-radius: 0px 0px 5px 5px;
+}
+
+.header h1{
+    color: #fff;
+    float: left;
+    position: absolute;
+    top: 10px;
+    left: 20px;
+}
+
+.topmenu{
+    display: flex;
+    justify-content: flex-end;
+
+}
+
+.topmenu .ul-1{
+    display: flex;
+    align-items: flex-end;
+    list-style-type: none;
+    margin-top: 10px;
+    margin-bottom: 0;
+    padding-left: 0;
+}
+
+@media screen and (max-width:560px){
+    .topmenu .ul-1{
+        display: none;
+    }
+}
+
+.topmenu li{
+    padding: 5px 15px 5px 10px;
+    text-align: center;
+}
+
+.topmenu li a{
+    text-decoration: none;
+    color: #f1f1f1;
+    transition: 0.3s;
+}
+
+.topmenu li a:hover{
+    color: rgb(233, 18 , 174);
+}
+
+.topmenu button{
+    margin-top: 15px;
+    border: none;
+    border-radius: 20px;
+}
+
+.topmenu .ul-2{
+    display: flex;
+    align-items: flex-end;
+    color: #f1f1f1;
+    list-style-type: none;
+    padding-left: 0;
+    margin-top: 20px;
+    margin-bottom: 0;
+    display: none;
+    position: relative;
+}
+
+.topmenu .ul-2 i{
+    font-size: 20px;
+}
+
+
+@media screen and (max-width:560px){
+    .topmenu .ul-2{
+        display: block;
+    }
+}
+
+.ul-2-1{
+    position:absolute;
+    list-style-type: none;
+    top: 35px;
+    right: 0%;
+    padding-left: 0;
+    width: 130px;
+    display: none;
+    background-color: rgb(69, 90, 100);
+    border-radius: 5px;
+}
+
+.small-menu:hover .ul-2-1{
+    display: block;
+}
+
+.ul-2-1 li{
+    text-align: right;
+    padding:8px;
+    border-bottom: 1px solid #ccc;
+}
+
+.ul-2-1 i{
+    margin-right: 5px;
+}
+
+.topmenu button{
+    border: none;
+    border-radius: 15px;
+    color:#eee;
+    transition: 0.3s;
+    background-color: rgb(62, 100, 243)
+}
+
+.topmenu button:hover{
+    background-color: rgba(253, 4 , 148 , 90%)
+}
+
+.menutext{
+    text-align: center;
+    margin-top: 100px;
+    color: #fff;
+}
+
+.menutext button{
+    border-radius:20px;
+    background-color: rgb(62, 100, 243);
+}
+
+.line1{
+    margin: 25px 0px 10px 0px;
+    width: 100%;
+    height: 1px;
+    background-color: #ccc;
+}
+
+.main{
+    text-align: center;
+}
+
+.main .row{
+    text-align: center;
+}
+
+.main .col{
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    padding: 10px;
+    transition: 0.3s;
+}
+
+.main .col:hover{
+    transform: translatey(-8px);
+}
+
+.main img{
+    width: 100px;
+    height: 100px;
+    margin:10px;
+    cursor: pointer;
+}
+
+.line2{
+    margin: 25px 0px 25px 0px;
+    width: 100%;
+    height: 1px;
+    background-color: #ccc;
+}
+
+.footer .container{
+    text-align: center;
+}
+
+.footer button{
+    border-radius: 20px;
+    background-color: rgb(62, 100, 243);
+}
+
+.footer-end{
+    height: 40px;
+    margin-top: 10px;
+    background-color:rgb(100, 181, 246);
+    border-radius: 20px 20px 0px 0px;
+}
+
+.footer i{
+    color: #fff;
+}
